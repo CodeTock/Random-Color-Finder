@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+  animation: color-transition 3s infinite;
+}
+@keyframes color-transition {
+  0% {
+    color: red;
+  }
+  25% {
+    color: aqua;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: blueviolet;
+  }
+  100% {
+    color: green;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-container {
+  background-color: chartreuse;
+  width: 300px;
+  height: 200px;
+  color: white;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border: solid black;
+  border-radius: 10px;
+}
